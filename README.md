@@ -35,16 +35,13 @@ We have also extended NSManagedObjectContext providing a bunch of signals.
 ```objective-c
 @interface NSManagedObjectContext (ReactiveQueryKit)
 
-/// Returns a signal that sends the NSNotification for
-NSManagedObjectContextObjectsDidChangeNotification in the current context
+/// Returns a signal that sends the NSNotification for NSManagedObjectContextObjectsDidChangeNotification in the current context
 - (RACSignal *)rqk_objectsDidChangeSignal;
 
-/// Returns a signal that sends the NSNotification for
-NSManagedObjectContextWillSaveNotification in the current context
+/// Returns a signal that sends the NSNotification for NSManagedObjectContextWillSaveNotification in the current context
 - (RACSignal *)rqk_willSaveSignal;
 
-/// Returns a signal that sends the NSNotification for
-NSManagedObjectContextDidSaveNotification in the current context
+/// Returns a signal that sends the NSNotification for NSManagedObjectContextDidSaveNotification in the current context
 - (RACSignal *)rqk_didSaveSignal;
 
 @end
