@@ -1,0 +1,9 @@
+platform :osx, '10.10'
+
+target 'ReactiveQueryKitTests' do
+  pod 'ReactiveQueryKit', :path => '../'
+
+  pod 'Expecta'
+  pod 'Expecta+ReactiveCocoa'
+end
+

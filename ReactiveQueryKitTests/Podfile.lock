@@ -1,0 +1,34 @@
+PODS:
+  - Expecta (0.3.1)
+  - Expecta+ReactiveCocoa (0.2.0):
+    - Expecta
+    - ReactiveCocoa
+  - QueryKit (0.8.3)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - ReactiveQueryKit (0.1.0):
+    - QueryKit
+    - ReactiveCocoa
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+ReactiveCocoa
+  - ReactiveQueryKit (from `../`)
+
+EXTERNAL SOURCES:
+  ReactiveQueryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  Expecta+ReactiveCocoa: 92bc1812054c8270c7cea94fa75c6ca2fc5a402e
+  QueryKit: d3f7cccef598433cdd1b8b2cc63d47ddfeb117c4
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  ReactiveQueryKit: 0c64716f1abaed7b2c9eb7f21848408a7e1e1aa4
+
+COCOAPODS: 0.33.1
