@@ -1,0 +1,7 @@
+language: objective-c
+before_install:
+  - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - cd ReactiveQueryKitTests && pod install && cd $TRAVIS_BUILD_DIR
+script: xcodebuild -workspace ReactiveQueryKitTests/ReactiveQueryKitTests.xcworkspace -scheme ReactiveQueryKitTests test | xcpretty -c ; exit ${PIPESTATUS[0]}
+

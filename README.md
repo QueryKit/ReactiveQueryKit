@@ -1,6 +1,8 @@
 ReactiveQueryKit
 ================
 
+[![Build Status](http://img.shields.io/travis/QueryKit/ReactiveQueryKit/master.svg?style=flat)](https://travis-ci.org/QueryKit/ReactiveQueryKit)
+
 ReactiveCocoa extensions for QueryKit. Currently it only supports the
 Objective-C variant of QueryKit and ReactiveCocoa. Once ReactiveCocoa 3.0 comes
 out we will implement a native Swift version using ReactiveCocoa 3.0.
