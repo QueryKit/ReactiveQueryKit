@@ -9,6 +9,8 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/QueryKit/ReactiveQueryKit.git', :tag => "#{spec.version}" }
   spec.source_files = 'ReactiveQueryKit/*.{h}', 'ReactiveQueryKit/ObjectiveC/*.{h,m}'
   spec.requires_arc = true
+  spec.osx.deployment_target = '10.7'
+  spec.ios.deployment_target = '5.0'
   spec.dependency 'ReactiveCocoa', '~> 2.0'
   spec.dependency 'QueryKit'
 end
